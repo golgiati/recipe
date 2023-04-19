@@ -271,6 +271,7 @@ p {
 .main-side-dishes
 .main-side-dishes-list 
 .main-side-dish-list-text 
+.rating-star
 .fa-star {
     padding-right: 5px;
     text-shadow: -1px 0px 0px #F2F2F2, 
@@ -283,7 +284,8 @@ p {
 .main-content
 .main-side-dishes
 .main-side-dishes-list 
-.main-side-dish-list-text 
+.main-side-dish-list-text
+.rating-star
 .checked {
     color: #eb5428;
   }
