@@ -227,35 +227,50 @@ p {
     padding-left: 10px;
 }
 
-.main-content .main-side-dishes-list li {
+.main-content 
+.main-side-dishes-list li {
     display: flex;
 }
 
-.main-content .main-side-dishes-list img {
+.main-content 
+.main-side-dishes-list img {
     height: 60px;
     width: 60px;
     padding-right: 30px;
 }
 
-.main-content .main-side-dishes-list h3, p {
+.main-content 
+.main-side-dishes-list h3, p {
     margin: 0;
 }
 
-.main-content .main-side-dishes-list .main-side-dish-list-text {
+.main-content 
+.main-side-dishes-list 
+.main-side-dish-list-text {
     display: flex;
     flex-direction: column;
     padding-bottom: 30px;
 }
 
-.main-content .main-side-dishes-list .main-side-dish-list-text {
+.main-content 
+.main-side-dishes-list 
+.main-side-dish-list-text {
     font-family: 'Monserrat', sans-serif;
 }
 
 /* side dishes star rating */
+.main-content
+.main-side-dishes
+.main-side-dishes-list 
+.main-side-dish-list-text 
 .rating-star {
     display: flex;
 }
 
+.main-content
+.main-side-dishes
+.main-side-dishes-list 
+.main-side-dish-list-text 
 .fa-star {
     padding-right: 5px;
     text-shadow: -1px 0px 0px #F2F2F2, 
@@ -265,6 +280,10 @@ p {
     color: #F2F2F2;
 }
 
+.main-content
+.main-side-dishes
+.main-side-dishes-list 
+.main-side-dish-list-text 
 .checked {
     color: #eb5428;
   }
