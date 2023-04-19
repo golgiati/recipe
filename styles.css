@@ -78,6 +78,7 @@ p {
 .header-menu-icons {
     display: flex;
     justify-content: space-evenly;
+    padding: 0;
 }
 
 .header-menu-icon-itself {
@@ -198,7 +199,7 @@ p {
 /* directions section */
 
 .main-content .main-directions {
-    padding: 0 10px;
+    padding: 0 5px;
 }
 
 .main-content .main-directions h2 {
@@ -209,6 +210,7 @@ p {
 .main-content .main-directions li > p {
     font-family: 'Monserrat', sans-serif;
     padding-bottom: 20px;
+    padding-left: 10px;
 }
 
 /* side dishes section */
@@ -221,6 +223,10 @@ p {
     padding-top: 20px;
 }
 
+.main-content .main-side-dishes-list {
+    padding-left: 10px;
+}
+
 .main-content .main-side-dishes-list li {
     display: flex;
 }
@@ -228,7 +234,7 @@ p {
 .main-content .main-side-dishes-list img {
     height: 60px;
     width: 60px;
-    padding-right: 20px;
+    padding-right: 30px;
 }
 
 .main-content .main-side-dishes-list h3, p {
@@ -244,3 +250,21 @@ p {
 .main-content .main-side-dishes-list .main-side-dish-list-text {
     font-family: 'Monserrat', sans-serif;
 }
+
+/* side dishes star rating */
+.rating-star {
+    display: flex;
+}
+
+.fa-star {
+    padding-right: 5px;
+    text-shadow: -1px 0px 0px #F2F2F2, 
+                  1px 0px 0px #F2F2F2, 
+                  0px -1px 0px #F2F2F2, 
+                  0px 1px 0px #F2F2F2;
+    color: #F2F2F2;
+}
+
+.checked {
+    color: #eb5428;
+  }
