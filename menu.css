@@ -175,10 +175,87 @@
     .header-menu-text {
         position: absolute;
         z-index: 3;
-        top: 300px;
+        top: 310px;
         width: 768px;
         background-color: rgba(238, 230, 230, 0.7);
     }
+
+    /* center details */
+    .main-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-details dl {
+        margin-top: 5px;
+    }
+
+    .main-content {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .main-content 
+    .main-side-dishes h2 {
+        padding-top: 0;
+}
+
+    .main-content-title,
+    .header-menu-text,
+    .main-picture,
+    .main-text,
+    .main-details,
+    .main-side-dishes {
+        grid-column: 1 / 3;
+    }
+
+    .main-ingredients {
+        grid-column: 1 / 2;
+    }
+
+    .main-directions {
+        grid-column: 2 / 3;
+    }
+
+    .main-content
+    .main-side-dishes-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .main-content 
+    .main-side-dishes-list img {
+    height: 100px;
+    width: 100px;
+    padding-right: 20px;
+    }
+
+    /* footer */
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-top: 30px;
+    }
+
+    .footer .img-copy {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    .footer .social-media {
+        grid-column: 2 / 3;
+    }
+
+    .footer .social-media-menu {
+        justify-content: flex-end;
+        padding-right: 30px;
+    }
+
+    .footer .social-media-menu li {
+        padding-left: 30px;
+    }
+
 }
 
 /* 1280 pixels wide */
@@ -218,14 +295,18 @@
         border: 2px solid #eb5428;
     }
 
-    .main-content .header-menu-text .header-menu-icons {
+    .main-content 
+    .header-menu-text 
+    .header-menu-icons {
         flex-direction: column;
         height: 100%;
         justify-content: flex-start;
         padding: 0;
     }
 
-    .main-content .header-menu-text .header-menu-icons li {
+    .main-content 
+    .header-menu-text 
+    .header-menu-icons li {
         padding: 10px;
     }
 
@@ -265,11 +346,13 @@
         width: 100%;
     }
 
-    .main-content .main-picture-text img {
+    .main-content 
+    .main-picture-text img {
         grid-column: 2 / 3;
     }
 
-    .main-content .main-details {
+    .main-content 
+    .main-details {
         grid-column: 1 / 7;
     }
     
