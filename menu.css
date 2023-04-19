@@ -85,7 +85,7 @@
     background-color: #F2F2F2;
     flex-direction: column;
     justify-content: center;
-    height: 66px;
+    height: 64px;
 }
 
 .menu img {
@@ -160,6 +160,7 @@
 
     .search-box {
         background: none;
+        padding-top: 14px;
     }
 
     .main-content > h2 {

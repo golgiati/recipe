@@ -136,7 +136,7 @@ p {
     display: flex;
     justify-content: center;
     background-color: #F2F2F2;
-    padding-top: 14px;
+    padding-top: 30px;
 }
 
 .search-box input {
@@ -195,12 +195,20 @@ p {
     text-align: center;
 }
 
+/* directions section */
+
+.main-content .main-directions {
+    padding: 0 10px;
+}
+
 .main-content .main-directions h2 {
     text-align: center;
 }
 
+.main-content .main-directions li,
 .main-content .main-directions li > p {
     font-family: 'Monserrat', sans-serif;
+    padding-bottom: 20px;
 }
 
 /* side dishes section */
@@ -210,6 +218,7 @@ p {
 
 .main-content .main-side-dishes h2 {
     text-align: center;
+    padding-top: 20px;
 }
 
 .main-content .main-side-dishes-list li {
@@ -224,4 +233,14 @@ p {
 
 .main-content .main-side-dishes-list h3, p {
     margin: 0;
+}
+
+.main-content .main-side-dishes-list .main-side-dish-list-text {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.main-content .main-side-dishes-list .main-side-dish-list-text {
+    font-family: 'Monserrat', sans-serif;
 }
