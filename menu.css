@@ -25,6 +25,7 @@
     background-color: #F2F2F2;
 }
 
+/* style the links in the top and dropdown menu */
 .top-navigation .menu li a {
     padding: 10px 10px;
     text-decoration: none;
@@ -33,17 +34,20 @@
     color:#eb5428;
 }
 
-.top-navigation li a:hover {
+
+/* only highlight the links in the dropdown menu when hover */
+.top-navigation .menu 
+.li-a-with-background:hover {
     background-color: rgba(240, 143, 64, 0.7);
     color: #F2F2F2;
-    transition: 0.1s;
+    transition: 0.2s ease-in-out;
 }
 
 /* menu */
 .top-navigation .menu {
     clear: both;
     max-height: 0;
-    transition: max-height 0.5s ease-in-out;
+    transition: max-height 0.3s ease-in-out;
 }
 
 /* checkbox format */
@@ -292,6 +296,10 @@
         background-color: #F2F2F2;
         z-index: 3;
         padding-top: 30px;
+    }
+
+    .search-box input {
+        width: 350px;
     }
 
     .main-content {
