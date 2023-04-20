@@ -54,6 +54,7 @@
     position: relative;
     user-select: none;
     background-color: #F2F2F2;
+    text-align: center;
 }
 
 /* menu btn */
@@ -265,11 +266,6 @@
         max-width: 1280px;
     }
 
-    img {
-        width: 100%;
-        height: 100%;
-    }
-
     .top-navigation {
         display: inline;
     }
@@ -328,6 +324,10 @@
     .main-content
     .main-picture {
         grid-column: 2 / 3;
+    }
+
+    .main-picture img {
+        height: 100%;
     }
 
     .main-content 

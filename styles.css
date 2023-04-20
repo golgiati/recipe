@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+/* styles CSS */
 
 body {
     background-color: rgba(122, 191, 191, .5);
@@ -11,12 +11,12 @@ body {
 }
 
 /* text */
-h1, 
-h2, 
-h3, 
-nav a, 
-nav span, 
-menu li, 
+h1,
+h2,
+h3,
+nav a,
+nav span,
+menu li,
 footer {
     font-family: 'Bebas Neue', sans-serif;
 }
@@ -103,6 +103,7 @@ p {
     text-decoration: none;
 }
 
+.social-media-menu li a:hover,
 .header-menu-icons li a:hover {
     opacity: 0.5;
 }
@@ -126,8 +127,16 @@ p {
     color: #0D0D0D;
 }
 
+.main-picture {
+    margin: 0;
+}
+
 .main-picture img {
     width: 100%;
+}
+
+.main-text > h2 {
+    display: none;
 }
 
 .main-text p {
@@ -150,6 +159,7 @@ p {
 .search-box input {
     height: 35px;
     width: 250px;
+    border: 1px solid #eb5428;
 }
 
 .search-box-main > h2 {
@@ -321,8 +331,4 @@ p {
 .social-media-menu li a {
     cursor: pointer;
     text-decoration: none;
-}
-
-.social-media-menu li a:hover {
-    opacity: 0.5;
 }
