@@ -36,14 +36,14 @@
 .top-navigation li a:hover {
     background-color: rgba(240, 143, 64, 0.7);
     color: #F2F2F2;
+    transition: 0.1s;
 }
 
 /* menu */
-
 .top-navigation .menu {
     clear: both;
     max-height: 0;
-    transition: max-height 0.2s ease-out;
+    transition: max-height 0.5s ease-in-out;
 }
 
 /* checkbox format */
@@ -58,16 +58,13 @@
 }
 
 /* menu btn */
-
 .top-navigation .menu-btn {
     display: none;
 }
 
 .top-navigation .menu-btn:checked ~ .menu {
-    max-height: fit-content;
+    max-height: 500px;
 }
-
-/* end menu */
 
 /* accomodate the logo and sign in */
 [href="#logo"] {
@@ -178,6 +175,7 @@
         z-index: 3;
         top: 310px;
         width: 768px;
+        padding-top: 15px;
         background-color: rgba(238, 230, 230, 0.7);
     }
 
