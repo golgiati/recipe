@@ -36,7 +36,8 @@ h3 {
 nav a,
 nav span,
 menu li,
-footer {
+footer,
+.social-media-menu p {
     font-size: 20px;
 }
 
@@ -316,6 +317,10 @@ p {
 .rating-star
 .checked {
     color: #eb5428;
+}
+
+.social-media-menu p {
+    font-size: 20px;
 }
 
 /* footer section */
