@@ -105,12 +105,17 @@ p {
 
 .social-media-menu li a:hover,
 .header-menu-icons li a:hover {
-    opacity: 0.6;
-    transition: 0.2s;
+    transition: 0.6s;
+}
+
+.hamburger-icon:hover,
+.logo-icon:hover,
+.avatar-icon:hover {
+    transform: scale(1.1, 1.1);
 }
 
 .svg-icon:hover {
-    transform: translate(0px, -5px) scale(1.5, 1.5);
+    transform: translate(0px, -7px) scale(1.2, 1.2);
 }
 
 /* main content title and background */
