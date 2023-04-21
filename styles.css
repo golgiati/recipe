@@ -66,6 +66,10 @@ p {
     text-align: center;
 }
 
+.main-content > h2 {
+    display: none;
+}
+
 .header-menu-text > h2 {
     display: none;
 }
