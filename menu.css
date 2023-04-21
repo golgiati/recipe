@@ -40,7 +40,7 @@
 .li-a-with-background:hover {
     background-color: rgba(240, 143, 64, 0.7);
     color: #F2F2F2;
-    transition: 0.2s ease-in-out;
+    transition: 0.1s ease-out;
 }
 
 /* menu */
@@ -143,6 +143,12 @@
 
     [href="#avatar"] {
         height: 60px;
+    }
+
+    .top-navigation .menu 
+    .li-a-with-background:hover {
+        border-radius: 10px;
+        box-shadow: 5px 5px 9px 0px rgba(0,0,0,.2);
     }
 
     /* hide the burger */
