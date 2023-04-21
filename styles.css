@@ -287,38 +287,7 @@ p {
     font-weight: bold;
 }
 
-.main-content
-.main-side-dishes
-.main-side-dishes-list 
-.main-side-dish-list-text 
-.rating-star {
-    display: flex;
-}
-
-.main-content
-.main-side-dishes
-.main-side-dishes-list 
-.main-side-dish-list-text 
-.rating-star
-.fa-star {
-    padding-right: 5px;
-    text-shadow: 
-    -1px 0px 0px #F2F2F2, 
-    1px 0px 0px #F2F2F2, 
-    0px -1px 0px #F2F2F2, 
-    0px 1px 0px #F2F2F2;
-    color: #F2F2F2;
-}
-
-.main-content
-.main-side-dishes
-.main-side-dishes-list 
-.main-side-dish-list-text
-.rating-star
-.checked {
-    color: #eb5428;
-}
-
+/* social media menu text size */
 .social-media-menu p {
     font-size: 20px;
 }
