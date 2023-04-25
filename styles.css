@@ -43,18 +43,22 @@ footer,
 dt {
     font-family: 'Monserrat', sans-serif;
     font-weight: bold;
+    font-size: 16px;
 }
 
 dd {
     font-family: 'Monserrat', sans-serif;
+    font-size: 16px;
 }
 
 p {
     line-height: 1.5rem;
+    font-size: 16px;
 }
 
 .main-ingredients li {
     font-family: 'Monserrat', sans-serif;
+    font-size: 16px;
 }
 
 .top-navigation > h2 {
@@ -108,8 +112,9 @@ header .header-menu-icons {
     transition: 0.2s ease-in-out;
 }
 
-#description p {
+#header-description p {
     font-family: 'Monserrat', sans-serif;
+    font-size: 16px;
     margin: 0;
     padding: 10px;
 }
@@ -207,6 +212,10 @@ main .main-directions h2 {
     text-align: center;
 }
 
+main .main-directions {
+    padding-top: 10px;
+}
+
 main .main-directions ol {
     padding-inline-start: 30px;
 }
@@ -217,6 +226,7 @@ main .main-directions ol li {
 
 main .main-directions li, p {
     font-family: 'Monserrat', sans-serif;
+    font-size: 16px;
 }
 
 /* side dishes section */
@@ -280,6 +290,7 @@ main .main-side-dishes-list .main-side-dish-list-text {
 
 main .main-side-dishes-list .main-side-dish-list-text {
     font-family: 'Monserrat', sans-serif;
+    font-size: 16px;
 }
 
 /* side dishes star rating */

@@ -14,7 +14,7 @@
 .menu-text {
     margin: 0;
     padding: 0;
-    color: #000;
+    color:#0d0d0d;
 }
 
 .top-navigation ul {
@@ -192,7 +192,7 @@
 
     main {
         display: grid;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 0.5fr 2fr;
     }
 
     /* details */
@@ -392,6 +392,79 @@
     footer .footer-information {
         display: flex;
         padding-left: 20px;
+    }
+
+}
+
+/* media querie for printing */
+@media print {
+    body {
+        background-color: #fff;
+        max-width: 8in;
+        max-height: 11in;
+        margin: 0.5in;
+        line-height: 1rem;
+        color: #000;
+        font-family: sans-serif;
+    }
+
+    h1,
+    h2,
+    h3,
+    nav a,
+    nav span,
+    menu li,
+    footer,
+    dt,
+    p,
+    dd {
+        font-family: sans-serif;
+        padding: 0;
+    }
+
+    img {
+        display: none;
+    }
+
+    .top-navigation {
+        display: none;
+    }
+
+    .search-box-main {
+        display: none;
+    }
+
+    header .header-menu,
+    header .header-img,
+    header #header-description {
+        display: none;
+    }
+
+    main .main-side-dishes {
+        display: none;
+    }
+
+    main .main-ingredients {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    main .main-ingredients ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    footer .social-media {
+        display: none;
+    }
+
+    footer .footer-information img {
+        display: none;
+    }
+
+    footer .footer-information p {
+        font-family: sans-serif;
+        font-weight: bold;
     }
 
 }
