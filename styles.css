@@ -217,7 +217,6 @@ main .main-directions li, p {
     font-family: 'Monserrat', sans-serif;
 }
 
-
 /* side dishes section */
 main .main-side-dishes {
     background-color: #7ABFBF;
@@ -282,23 +281,17 @@ main .main-side-dishes-list .main-side-dish-list-text {
 }
 
 /* side dishes star rating */
-.main-side-dish-list-text
-.star-rating-text {
+main .main-side-dish-list-text .star-rating-text {
     font-weight: bold;
 }
 
-/* social media menu text size */
-.social-media-menu p {
-    font-size: 20px;
-}
-
-.rating-star {
+main .rating-star {
     padding-left: 10px;
 }
 
 /* footer section */
 
-.social-media-menu {
+footer .social-media-menu {
     display: flex;
     justify-content: space-around;
     padding: 0;
@@ -306,11 +299,11 @@ main .main-side-dishes-list .main-side-dish-list-text {
     padding-bottom: 20px;
 }
 
-.social-media-menu li {
+footer .social-media-menu li {
     list-style: none;
 }
 
-.social-media-menu li a {
+footer .social-media-menu li a {
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -319,7 +312,7 @@ main .main-side-dishes-list .main-side-dish-list-text {
     text-decoration: none;
 }
 
-.social-media-menu li a {
+footer .social-media-menu li a {
     cursor: pointer;
     text-decoration: none;
 }
@@ -328,6 +321,7 @@ footer {
     text-align: center;
     background-color: #F2F2F2;
     padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 footer > h2 {
