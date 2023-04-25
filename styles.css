@@ -80,10 +80,10 @@ header h1 {
 
 header img {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
-.header-menu-icons {
+header .header-menu-icons {
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
@@ -92,7 +92,9 @@ header img {
 
 .header-menu-icons li {
     list-style: none;
+
 }
+
 
 .header-menu-icons li a {
     display: flex;
@@ -103,7 +105,7 @@ header img {
 }
 
 .header-menu-icons li a:hover {
-    transition: 1s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 
 #description p {
