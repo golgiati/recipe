@@ -265,13 +265,13 @@ p {
 
 .main-content 
 .main-side-dishes-list li a:hover {
-    color: #000;
+    color: #0D0D0D;
     background-color: #f3970d
 }
 
-.main-content 
+.main-side-dishes
 .main-side-dishes-list li a:visited {
-    color: #000;
+    color: #0D0D0D;
 }
 
 .main-content 
