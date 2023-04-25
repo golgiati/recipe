@@ -2,7 +2,6 @@
 
 body {
     background-color: rgba(122, 191, 191, .5);
-    padding: 10px;
     max-width: 414px;
     margin: 0 auto;
     font-family: 'Bebas Neue', sans-serif;
@@ -62,53 +61,60 @@ p {
     display: none;
 }
 
-.header > h2 {
-    display: none;
+.menu-text {
+    font-family: 'Bebas Neue', sans-serif;
 }
 
-.header-menu-text > h2 {
-    display: none;
-}
+/* header styling */
 
-.header-menu-text {
+header {
     background-color: #F2F2F2;
 }
 
-.header-menu-text h2 {
+header h1 {
     text-align: center;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header img {
+    width: 100%;
+    height: auto;
 }
 
 .header-menu-icons {
     display: flex;
     justify-content: space-evenly;
-    padding: 0;
-}
-
-.header-menu-icon-itself {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.social-media-menu p,
-.header-menu-icon-itself p {
+    padding: 20px;
     margin: 0;
-    color: #eb5428;
 }
 
 .header-menu-icons li {
     list-style: none;
 }
 
-.header-menu-icons a {
+.header-menu-icons li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-decoration: none;
+    color: #eb5428;
 }
 
-.social-media-menu li a:hover,
 .header-menu-icons li a:hover {
-    transition: 0.5s ease-in-out;
+    transition: 1s ease-in-out;
 }
 
+#description p {
+    font-family: 'Monserrat', sans-serif;
+    margin: 0;
+    padding: 10px;
+}
+
+/* end header */
+
+/* move the icons when hover */
 .hamburger-icon:hover,
 .logo-icon:hover,
 .avatar-icon:hover {
@@ -120,42 +126,11 @@ p {
 }
 
 /* main content title and background */
-.main-content {
+main {
     background-color: #F2F2F2;
 }
 
-.main-content-title h1 {
-    text-align: center;
-}
-
-/* photo and text */
-.main-text h2 {
-    padding-left: 20px;
-}
-
-.main-text {
-    background-color: #F2F2F2;
-    color: #0D0D0D;
-}
-
-.main-picture {
-    margin: 0;
-}
-
-.main-picture img {
-    width: 100%;
-}
-
-.main-text > h2 {
-    display: none;
-}
-
-.main-text p {
-    padding: 10px;
-    font-family: 'Monserrat', sans-serif;
-}
-
-/* move search box up */
+/* style and move search box up */
 .search-box-main {
     grid-row: 2 / 3 ;
 }
@@ -192,121 +167,117 @@ p {
 }
 
 /* details section */
-.main-content .main-details {
+main .main-details {
     padding: 0 10px;
 }
 
-.main-content .main-details h2 {
+main .main-details h2 {
     text-align: center;
 }
 
-.main-content .main-details-list {
+main .main-details-list {
     display: flex;
 }
 
-.main-content .main-details-list dd {
+main .main-details-list dd {
     margin-left: 10px;
 }
 
 /* ingredients section */
-.main-content .main-ingredients li {
+
+main .main-ingredients h2 {
+    text-align: center;
+}
+
+main .main-ingredients ul {
+    margin: 0;
+    padding-inline-start: 30px;
+}
+
+main .main-ingredients li {
     padding: 10px;
 }
 
-.main-content .main-ingredients h2 {
-    text-align: center;
-}
 
 /* directions section */
-.main-content .main-directions {
-    padding: 0 5px;
-}
 
-.main-content .main-directions h2 {
+main .main-directions h2 {
     text-align: center;
 }
 
-.main-content .main-directions li,
-.main-content .main-directions li > p {
-    font-family: 'Monserrat', sans-serif;
-    padding-bottom: 20px;
+main .main-directions ol {
+    padding-inline-start: 30px;
+}
+
+main .main-directions ol li {
     padding-left: 10px;
 }
 
+main .main-directions li, p {
+    font-family: 'Monserrat', sans-serif;
+}
+
+
 /* side dishes section */
-.main-content 
-.main-side-dishes {
+main .main-side-dishes {
     background-color: #7ABFBF;
 }
 
-.main-content 
-.main-side-dishes h2 {
+main .main-side-dishes h2 {
     text-align: center;
     padding-top: 10px;
 }
 
-.main-content 
-.main-side-dishes-list {
+main .main-side-dishes-list {
     padding-left: 20px;
     padding-right: 20px;
 }
 
-.main-content 
-.main-side-dishes-list li {
+main .main-side-dishes-list li {
     list-style-type: none;
     padding-bottom: 10px;
 }
 
-.main-content 
-.main-side-dishes-list li a {
+main .main-side-dishes-list li a {
     display: flex;
-    text-decoration: none;    
+    text-decoration: none;
+    color:#0D0D0D;
 }
 
-.main-content 
-.main-side-dishes-list li a:hover {
+main .main-side-dishes-list li a:hover {
     color: #0D0D0D;
     background-color: #f3970d
 }
 
-.main-side-dishes
-.main-side-dishes-list li a:visited {
+main .main-side-dishes-list li a:visited {
     color: #0D0D0D;
 }
 
-.main-content 
-.main-side-dishes-list img {
+main .main-side-dishes-list img {
     height: 100px;
     width: 100px;
     padding-top: 10px;
     padding-left: 10px;
-    /* padding-right: 20px; */
 }
 
-.main-content 
-.main-side-dishes-list h3 {
+main .main-side-dishes-list h3 {
     margin: 0;
     padding-left: 10px;
     padding-top: 10px;
 }
 
-.main-content 
-.main-side-dishes-list p {
+main .main-side-dishes-list p {
     margin: 0;
     padding-left: 10px;
 }
 
-.main-content 
-.main-side-dishes-list 
-.main-side-dish-list-text {
+main .main-side-dishes-list .main-side-dish-list-text {
     display: flex;
     flex-direction: column;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
-.main-content 
-.main-side-dishes-list 
-.main-side-dish-list-text {
+main .main-side-dishes-list .main-side-dish-list-text {
     font-family: 'Monserrat', sans-serif;
 }
 
@@ -326,20 +297,6 @@ p {
 }
 
 /* footer section */
-.footer {
-    text-align: center;
-    background-color: #F2F2F2;
-    padding-bottom: 20px;
-}
-
-.footer > h2 {
-    display: none;
-}
-
-.footer img {
-    width: 150px;
-    height: 150px;
-}
 
 .social-media-menu {
     display: flex;
@@ -354,6 +311,34 @@ p {
 }
 
 .social-media-menu li a {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #eb5428;
+    text-decoration: none;
+}
+
+.social-media-menu li a {
     cursor: pointer;
     text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    background-color: #F2F2F2;
+    padding-bottom: 10px;
+}
+
+footer > h2 {
+    display: none;
+}
+
+footer img {
+    width: 150px;
+    height: 150px;
+}
+
+footer p {
+    font-family: 'Bebas Neue', sans-serif;
 }

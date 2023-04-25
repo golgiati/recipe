@@ -17,95 +17,70 @@
 <body>
 
     <!-- header-->
-    <header class="header">
-        <h2>Header</h2>
+    <header>
+        <h1>Street Tacos</h1>
+
+        <!-- secondary menu -->
+        <menu class="header-menu-icons">
+
+            <li>
+                <a href="#"> <!-- save -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#EB5428" fill="none" stroke-linecap="round" stroke-linejoin="round" class="svg-icon">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" />
+                        <polyline points="7 11 12 16 17 11" />
+                        <line x1="12" y1="4" x2="12" y2="16" />
+                    </svg>Save</a>
+            </li>
+
+            <li>
+                <a href="#"> <!-- share -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#EB5428" fill="none" stroke-linecap="round" stroke-linejoin="round" class="svg-icon">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="6" cy="12" r="3" />
+                        <circle cx="18" cy="6" r="3" />
+                        <circle cx="18" cy="18" r="3" />
+                        <line x1="8.7" y1="10.7" x2="15.3" y2="7.3" />
+                        <line x1="8.7" y1="13.3" x2="15.3" y2="16.7" />
+                    </svg>Share</a>
+            </li>
+
+            <li>
+                <a href="#"> <!-- print -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#EB5428" fill="none" stroke-linecap="round" stroke-linejoin="round" class="svg-icon">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M17 17h2a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-14a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h2" />
+                        <path d="M17 9v-4a2 2 0 0 0 -2 -2h-6a2 2 0 0 0 -2 2v4" />
+                        <rect x="7" y="13" width="10" height="8" rx="2" />
+                    </svg>Print</a>
+            </li>
+
+            <li>
+                <a href="#"> <!-- jump -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#EB5428" fill="none" stroke-linecap="round" stroke-linejoin="round" class="svg-icon">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M4 21v-4a3 3 0 0 1 3 -3h5" />
+                        <path d="M9 17l3 -3l-3 -3" />
+                        <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+                        <path d="M5 11v-6a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2h-9.5" />
+                    </svg>Jump to Recipe</a>
+            </li>
+        </menu> 
+        <!-- end header menu -->
+        
+        <img src="images/street-tacos.png" alt="Picture of tacos served with toppings">
+        
+        <div id="description">
+            <p>Street tacos are delicious, amazing, and oh so mouthwatering! Bite into tender steak, zesty lime flavor with a hint of spice and add on tomatoes, avocado, and onions for a savory bite you are going to love!</p>
+
+            <p>These street tacos are completely jam-packed with flavor and they are so easy to make. I love how the meat is so tender and juicy and only takes an hour to marinate! If you absolutely love tacos like me, try out these other amazing taco recipes! These taco-stuffed avocados, Baja fish tacos, and ground beef tacos will not disappoint!!</p>
+        </div>
+
     </header>
     <!-- end header -->
 
     <!-- main content -->
-    <main class="main-content">
-        <!-- main content title -->
-        <section class="main-content-title">
-            <h1>Street Tacos</h1>
-        </section>
-
-        <!-- secondary menu -->
-        <nav class="header-menu-text">
-
-            <menu class="header-menu-icons">
-                <li>
-                    <a href="#"> <!-- save -->
-                        <div class="header-menu-icon-itself">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#EB5428" fill="none" stroke-linecap="round" stroke-linejoin="round" class="svg-icon">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" />
-                                <polyline points="7 11 12 16 17 11" />
-                                <line x1="12" y1="4" x2="12" y2="16" />
-                            </svg>
-                            <p>Save</p>
-                        </div>
-                    </a>
-                </li>
-    
-                <li>
-                    <a href="#"> <!-- share -->
-                        <div class="header-menu-icon-itself">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#EB5428" fill="none" stroke-linecap="round" stroke-linejoin="round" class="svg-icon">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                <circle cx="6" cy="12" r="3" />
-                                <circle cx="18" cy="6" r="3" />
-                                <circle cx="18" cy="18" r="3" />
-                                <line x1="8.7" y1="10.7" x2="15.3" y2="7.3" />
-                                <line x1="8.7" y1="13.3" x2="15.3" y2="16.7" />
-                            </svg>
-                            <p>Share</p>
-                        </div>
-                    </a>    
-                </li>
-    
-                <li>
-                    <a href="#"> <!-- print -->
-                        <div class="header-menu-icon-itself">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#EB5428" fill="none" stroke-linecap="round" stroke-linejoin="round" class="svg-icon">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                <path d="M17 17h2a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-14a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h2" />
-                                <path d="M17 9v-4a2 2 0 0 0 -2 -2h-6a2 2 0 0 0 -2 2v4" />
-                                <rect x="7" y="13" width="10" height="8" rx="2" />
-                            </svg>
-                            <p>Print</p>
-                        </div>
-                    </a>
-                </li>
-    
-                <li>
-                    <a href="#"> <!-- jump -->
-                        <div class="header-menu-icon-itself">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#EB5428" fill="none" stroke-linecap="round" stroke-linejoin="round" class="svg-icon">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                <path d="M4 21v-4a3 3 0 0 1 3 -3h5" />
-                                <path d="M9 17l3 -3l-3 -3" />
-                                <path d="M14 3v4a1 1 0 0 0 1 1h4" />
-                                <path d="M5 11v-6a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2h-9.5" />
-                            </svg>
-                            <p>Jump to Recipe</p>
-                        </div>
-                    </a>
-                </li>
-            </menu>
-        </nav>
-
-        <!-- Main picture and text -->
-        <figure class="main-picture">
-            <img src="images/street-tacos.png" alt="Picture of tacos served with toppings">
-        </figure>
-
-        <!-- main text after image-->
-        <article class="main-text">
-            <h2>Main Paragraph</h2>
-            <p>Street tacos are delicious, amazing, and oh so mouthwatering! Bite into tender steak, zesty lime flavor with a hint of spice and add on tomatoes, avocado, and onions for a savory bite you are going to love!</p>
-
-            <p>These street tacos are completely jam-packed with flavor and they are so easy to make. I love how the meat is so tender and juicy and only takes an hour to marinate! If you absolutely love tacos like me, try out these other amazing taco recipes! These taco-stuffed avocados, Baja fish tacos, and ground beef tacos will not disappoint!!</p>
-        </article>
+    <main>
 
         <!-- recipe details-->
         <section class="main-details">
@@ -157,6 +132,7 @@
                 <li>Pepper</li>
                 <li>Corn tortillas</li>
             </ul>
+
         </section>
 
         <!-- recipe directions-->
@@ -218,7 +194,6 @@
                                         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                         <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
                                     </svg>
-                                    
                                 </div>
                             </div>
                         </div>
@@ -255,7 +230,6 @@
                                     <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
                                 </svg>
                             </div>
-
                         </div>
                     </a>
                 </li>
@@ -359,7 +333,7 @@
         <ul class="menu">
             <li>
                 <a href="#logo">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="logo-icon" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="logo-icon" width="50" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                         <path d="M4 3h8l-1 9h-6z" />
                         <path d="M7 18h2v3h-2z" />
@@ -434,7 +408,7 @@
     <!-- end search box -->
 
     <!-- footer -->
-    <footer class="footer">
+    <footer>
         <h2>Footer</h2>
 
         <aside class="social-media">
@@ -445,9 +419,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" class="facebook-icon svg-icon" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#EB5428" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                             <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
-                        </svg>
-                        <p>Facebook</p>
-                    </a>
+                        </svg>Facebook</a>
                 </li>
             
                 <li> <!-- instagram -->
@@ -457,9 +429,7 @@
                             <rect x="4" y="4" width="16" height="16" rx="4" />
                             <circle cx="12" cy="12" r="3" />
                             <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
-                        </svg>
-                        <p>Instagram</p>
-                    </a>
+                        </svg>Instagram</a>
                 </li>
 
                 <li>
@@ -468,9 +438,7 @@
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                             <rect x="3" y="5" width="18" height="14" rx="4" />
                             <path d="M10 9l5 3l-5 3z" />
-                        </svg>
-                        <p>YouTube</p>
-                    </a>
+                        </svg>YouTube</a>
                 </li>
 
                 <li>
@@ -478,18 +446,14 @@
                         <svg xmlns="http://www.w3.org/2000/svg" class="tiktok-icon svg-icon" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#EB5428" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                             <path d="M9 12a4 4 0 1 0 4 4v-12a5 5 0 0 0 5 5" />
-                        </svg>
-                        <p>TikTok</p>
-                    </a>
+                        </svg>TikTok</a>
                 </li>
             </menu>
 
         </aside>
 
-        <div class="img-copy">
-            <img src="images/taco-cheesington.png" alt="Picture of a chef preparing a dish">
-            <p>Copyright 2022<br>Taco Cheesington</p>
-        </div>
+        <img src="images/taco-cheesington.png" alt="Picture of a chef preparing a dish">
+        <p>Copyright 2022<br>Taco Cheesington</p>
 
     </footer>
     <!-- end footer -->
