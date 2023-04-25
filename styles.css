@@ -260,7 +260,6 @@ p {
 .main-content 
 .main-side-dishes-list li a {
     display: flex;
-    flex-direction: column;
     text-decoration: none;    
 }
 
@@ -277,8 +276,8 @@ p {
 
 .main-content 
 .main-side-dishes-list img {
-    height: 60px;
-    width: 60px;
+    height: 100px;
+    width: 100px;
     padding-top: 10px;
     padding-left: 10px;
     /* padding-right: 20px; */
@@ -288,6 +287,7 @@ p {
 .main-side-dishes-list h3 {
     margin: 0;
     padding-left: 10px;
+    padding-top: 10px;
 }
 
 .main-content 
