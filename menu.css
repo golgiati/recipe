@@ -11,6 +11,7 @@ nav {
     grid-row: 1 / 2;
 }
 
+/* change the color of sign in */
 .menu-text {
     margin: 0;
     padding: 0;
@@ -90,6 +91,7 @@ nav .menu-btn:checked ~ .menu {
     height: 66px;
 }
 
+/* menu li a images with food */
 .menu img {
     height: 50px;
     width: 50px;
