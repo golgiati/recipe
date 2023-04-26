@@ -29,7 +29,7 @@ nav a, nav span, menu li, footer, footer li, footer p {
     font-size: 20px;
 }
 
-dt, dd, p, .main-ingredients li {
+dt, dd, p, main li {
     font-size: 16px;
     font-family: 'Monserrat', sans-serif;
 }
@@ -39,7 +39,7 @@ dt {
 }
 
 p {
-    line-height: 1.5rem;
+    line-height: 1.7rem;
 }
 
 nav > h2 {
@@ -54,8 +54,7 @@ header {
 header h1 {
     text-align: center;
     margin: 0;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 0;
 }
 
 header img {
@@ -87,10 +86,8 @@ header .header-menu-icons li a:hover {
 }
 
 #header-description p {
-    font-family: 'Monserrat', sans-serif;
-    font-size: 16px;
+    padding: 0 10px;
     margin: 0;
-    padding: 10px;
 }
 
 /* main content title and background */
@@ -170,7 +167,7 @@ main .main-ingredients li {
 /* directions section */
 main .main-directions h2 {
     text-align: center;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
 }
 
 main .main-directions {
@@ -196,8 +193,7 @@ main .main-side-dishes h2 {
 }
 
 main .main-side-dishes-list {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 0 20px;
 }
 
 main .main-side-dishes-list li {
@@ -221,8 +217,8 @@ main .main-side-dishes-list li a:visited {
 }
 
 main .main-side-dishes-list img {
-    height: 100px;
-    width: 100px;
+    height: 110px;
+    width: 110px;
     padding-top: 10px;
     padding-left: 10px;
 }
@@ -240,8 +236,6 @@ main .main-side-dishes-list p {
 }
 
 main .main-side-dishes-list .main-side-dish-list-text {
-    display: flex;
-    flex-direction: column;
     padding-bottom: 10px;
 }
 
@@ -255,12 +249,24 @@ main .rating-star {
 }
 
 /* footer section */
+footer > h2 {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    background-color: #F2F2F2;
+}
+
+footer img {
+    width: 150px;
+    height: 150px;
+}
+
 footer .social-media-menu {
     display: flex;
     justify-content: space-around;
-    padding: 0;
-    margin: 0;
-    padding-bottom: 20px;
+    padding: 20px 0;
 }
 
 footer .social-media-menu li {
@@ -274,25 +280,6 @@ footer .social-media-menu li a {
     align-items: center;
     color: #eb5428;
     text-decoration: none;
-}
-
-footer .social-media-menu li a {
     cursor: pointer;
     text-decoration: none;
-}
-
-footer {
-    text-align: center;
-    background-color: #F2F2F2;
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
-
-footer > h2 {
-    display: none;
-}
-
-footer img {
-    width: 150px;
-    height: 150px;
 }
