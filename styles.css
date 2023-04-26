@@ -36,29 +36,32 @@ nav a,
 nav span,
 menu li,
 footer,
-.social-media-menu p {
+footer .social-media-menu li {
     font-size: 20px;
+}
+
+dt,
+dd,
+p,
+.main-ingredients li {
+    font-size: 16px;
 }
 
 dt {
     font-family: 'Monserrat', sans-serif;
     font-weight: bold;
-    font-size: 16px;
 }
 
 dd {
     font-family: 'Monserrat', sans-serif;
-    font-size: 16px;
 }
 
 p {
     line-height: 1.5rem;
-    font-size: 16px;
 }
 
 .main-ingredients li {
     font-family: 'Monserrat', sans-serif;
-    font-size: 16px;
 }
 
 nav > h2 {
@@ -98,7 +101,6 @@ header .header-menu-icons {
     list-style: none;
 
 }
-
 
 .header-menu-icons li a {
     display: flex;
@@ -193,6 +195,7 @@ main .main-details-list dd {
 /* ingredients section */
 
 main .main-ingredients h2 {
+    padding-top: 10px;
     text-align: center;
 }
 
@@ -348,4 +351,5 @@ footer img {
 
 footer p {
     font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
 }
