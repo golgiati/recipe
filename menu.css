@@ -38,7 +38,7 @@
 /* only highlight the links in the dropdown menu when hover */
 .top-navigation .menu 
 .li-a-with-background:hover {
-    background-color: rgba(240, 143, 64, 0.7);
+    background-color:#eb5428;
     color: #F2F2F2;
     transition: 0.1s ease-out;
 }
