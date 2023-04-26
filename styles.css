@@ -61,7 +61,7 @@ p {
     font-size: 16px;
 }
 
-.top-navigation > h2 {
+nav > h2 {
     display: none;
 }
 
