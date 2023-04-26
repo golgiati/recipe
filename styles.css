@@ -4,19 +4,12 @@ body {
     background-color: rgba(122, 191, 191, .5);
     max-width: 414px;
     margin: 0 auto;
-    font-family: 'Bebas Neue', sans-serif;
     display: grid;
     grid-template-columns: 1fr;
 }
 
 /* text */
-h1,
-h2,
-h3,
-nav a,
-nav span,
-menu li,
-footer {
+h1, h2, h3, nav a, nav span, menu li, footer, footer p {
     font-family: 'Bebas Neue', sans-serif;
 }
 
@@ -32,48 +25,28 @@ h3 {
     font-size: 25px;
 }
 
-nav a,
-nav span,
-menu li,
-footer,
-footer .social-media-menu li {
+nav a, nav span, menu li, footer, footer li, footer p {
     font-size: 20px;
 }
 
-dt,
-dd,
-p,
-.main-ingredients li {
+dt, dd, p, .main-ingredients li {
     font-size: 16px;
+    font-family: 'Monserrat', sans-serif;
 }
 
 dt {
-    font-family: 'Monserrat', sans-serif;
     font-weight: bold;
-}
-
-dd {
-    font-family: 'Monserrat', sans-serif;
 }
 
 p {
     line-height: 1.5rem;
 }
 
-.main-ingredients li {
-    font-family: 'Monserrat', sans-serif;
-}
-
 nav > h2 {
     display: none;
 }
 
-.menu-text {
-    font-family: 'Bebas Neue', sans-serif;
-}
-
 /* header styling */
-
 header {
     background-color: #F2F2F2;
 }
@@ -97,12 +70,11 @@ header .header-menu-icons {
     margin: 0;
 }
 
-.header-menu-icons li {
+header .header-menu-icons li {
     list-style: none;
-
 }
 
-.header-menu-icons li a {
+header .header-menu-icons li a {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -110,7 +82,7 @@ header .header-menu-icons {
     color: #eb5428;
 }
 
-.header-menu-icons li a:hover {
+header .header-menu-icons li a:hover {
     transition: 0.2s ease-in-out;
 }
 
@@ -119,19 +91,6 @@ header .header-menu-icons {
     font-size: 16px;
     margin: 0;
     padding: 10px;
-}
-
-/* end header */
-
-/* move the icons when hover */
-.hamburger-icon:hover,
-.logo-icon:hover,
-.avatar-icon:hover {
-    transform: scale(1.2, 1.2);
-}
-
-.svg-icon:hover {
-    transform: translate(0px, -7px) scale(1.2, 1.2);
 }
 
 /* main content title and background */
@@ -156,7 +115,7 @@ main {
     width: 250px;
     box-sizing: border-box;
     border: 3px solid #eba792;
-    transition: 0.5s ease-in-out;
+    transition: 0.2s ease-in-out;
     outline: none;
     
 }
@@ -208,9 +167,7 @@ main .main-ingredients li {
     padding: 10px;
 }
 
-
 /* directions section */
-
 main .main-directions h2 {
     text-align: center;
     margin-bottom: 35px;
@@ -226,11 +183,6 @@ main .main-directions ol {
 
 main .main-directions ol li {
     padding-left: 10px;
-}
-
-main .main-directions li, p {
-    font-family: 'Monserrat', sans-serif;
-    font-size: 16px;
 }
 
 /* side dishes section */
@@ -275,6 +227,7 @@ main .main-side-dishes-list img {
     padding-left: 10px;
 }
 
+/* side dish title */
 main .main-side-dishes-list h3 {
     margin: 0;
     padding-left: 10px;
@@ -292,11 +245,6 @@ main .main-side-dishes-list .main-side-dish-list-text {
     padding-bottom: 10px;
 }
 
-main .main-side-dishes-list .main-side-dish-list-text {
-    font-family: 'Monserrat', sans-serif;
-    font-size: 16px;
-}
-
 /* side dishes star rating */
 main .main-side-dish-list-text .star-rating-text {
     font-weight: bold;
@@ -307,7 +255,6 @@ main .rating-star {
 }
 
 /* footer section */
-
 footer .social-media-menu {
     display: flex;
     justify-content: space-around;
@@ -348,9 +295,4 @@ footer > h2 {
 footer img {
     width: 150px;
     height: 150px;
-}
-
-footer p {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 20px;
 }

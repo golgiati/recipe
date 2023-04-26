@@ -1,7 +1,6 @@
 /* CSS for menus, page format and dropdown hamburger menu */
 
-/* top navigation */
-
+/* top navigation and hamburger menu styling */
 nav {
     background-color: #eb5428;
     box-shadow: 1px 5px 4px 0 rgba(0,0,0,.1);
@@ -9,13 +8,6 @@ nav {
     width: 100%;
     z-index: 4;
     grid-row: 1 / 2;
-}
-
-/* change the color of sign in */
-.menu-text {
-    margin: 0;
-    padding: 0;
-    color:#0d0d0d;
 }
 
 nav ul {
@@ -37,8 +29,7 @@ nav .menu li a {
 
 
 /* only highlight the links in the dropdown menu when hover */
-nav .menu 
-.li-a-with-background:hover {
+nav .menu .li-a-with-background:hover {
     background-color:#eb5428;
     color: #F2F2F2;
     transition: 0.1s ease-out;
@@ -70,14 +61,14 @@ nav .menu-btn {
 nav .menu-btn:checked ~ .menu {
     max-height: 500px;
 }
+/* end hamburger menu styling */
 
 /* accomodate the logo and sign in */
 [href="#logo"] {
     position: absolute;
     top: 5px;
-    left: 170px;
+    left: 165px;
     background-color: #eb5428;
-    flex-direction: column;
     justify-content: center;
 }
 
@@ -91,6 +82,15 @@ nav .menu-btn:checked ~ .menu {
     height: 66px;
 }
 
+/* style the text for sign-in avatar */
+.menu-text {
+    margin: 0;
+    padding: 0;
+    color:#0d0d0d;
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
 /* menu li a images with food */
 .menu img {
     height: 50px;
@@ -102,17 +102,25 @@ nav .menu-btn:checked ~ .menu {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding: 0 10px;
 }
 
 .avatar-icon {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 0 10px;
+}
+
+/* move the icons when hover */
+.hamburger-icon:hover, .logo-icon:hover, .avatar-icon:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.svg-icon:hover {
+    transform: translate(0px, -7px) scale(1.2, 1.2);
 }
 
 /* 768 pixels wide */
 @media(min-width: 768px) {
+    
     body {
         max-width: 768px;
     }
@@ -127,7 +135,7 @@ nav .menu-btn:checked ~ .menu {
     }
 
     nav .menu img {
-        padding: 0;
+        padding: 5px;
     }
 
     nav .menu li a {
@@ -138,18 +146,18 @@ nav .menu-btn:checked ~ .menu {
 
     header h1 {
         text-align: left;
-        padding-left: 20px;
+        padding-left: 35px;
     }
 
     /* move the logo */
     [href="#logo"] {
         top: 0;
         left: 0;
-        height: 50px;
+        height: 60px;
     }
 
     [href="#avatar"] {
-        height: 60px;
+        height: 70px;
     }
 
     nav .menu 
@@ -240,7 +248,6 @@ nav .menu-btn:checked ~ .menu {
     footer .social-media {
         grid-column: 2 / 3;
     }
-
 }
 
 /* 1280 pixels wide */
@@ -263,11 +270,11 @@ nav .menu-btn:checked ~ .menu {
     }
 
     [href="#logo"] {
-        height: 76px;
+        height: 86px;
     }
 
     [href="#avatar"] {
-        height: 76px;
+        height: 86px;
     }
 
     .search-box-main {
@@ -398,7 +405,6 @@ nav .menu-btn:checked ~ .menu {
     footer .footer-information p {
         padding-left: 20px;
     }
-
 }
 
 /* media querie for printing */
@@ -471,5 +477,4 @@ nav .menu-btn:checked ~ .menu {
         font-family: sans-serif;
         font-weight: bold;
     }
-
 }
