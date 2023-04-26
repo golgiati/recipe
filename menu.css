@@ -212,10 +212,9 @@ nav .menu-btn:checked ~ .menu {
     main .main-details dl {
         margin-top: 5px;
     }
-
+    
     main .main-directions ol {
         padding-right: 10px;
-        
     }
 
     main .main-side-dishes {
@@ -393,7 +392,7 @@ nav .menu-btn:checked ~ .menu {
 
     footer .footer-information {
         display: flex;
-        padding-left: 20px;
+        padding-left: 30px;
     }
 
     footer .footer-information p {

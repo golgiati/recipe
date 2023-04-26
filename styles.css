@@ -195,7 +195,7 @@ main .main-details-list dd {
 /* ingredients section */
 
 main .main-ingredients h2 {
-    padding-top: 10px;
+    padding-top: 20px;
     text-align: center;
 }
 
@@ -216,7 +216,7 @@ main .main-directions h2 {
 }
 
 main .main-directions {
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 main .main-directions ol {
