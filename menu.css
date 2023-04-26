@@ -394,6 +394,10 @@ nav .menu-btn:checked ~ .menu {
         padding-left: 20px;
     }
 
+    footer .footer-information p {
+        padding-left: 20px;
+    }
+
 }
 
 /* media querie for printing */
