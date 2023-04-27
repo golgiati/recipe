@@ -298,13 +298,16 @@ main .rating-star {
 }
 
 /* footer section */
+footer {
+    background-color: #F2F2F2;
+}
+
 footer > h2 {
     display: none;
 }
 
 footer .footer-information {
     text-align: center;
-    background-color: #F2F2F2;
 }
 
 footer .footer-information img {
