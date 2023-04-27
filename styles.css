@@ -81,7 +81,8 @@ dt, dd, p, main li {
     font-family: 'Monserrat', sans-serif;
 }
 
-dt {
+dt,
+main .main-side-dish-list-text .star-rating-text {
     font-weight: bold;
 }
 
@@ -155,11 +156,14 @@ header .header-menu-icons li a:hover {
     border: 3px solid #eba792;
     transition: 0.2s ease-in-out;
     outline: none;
-    
 }
 
 .search-box input:focus {
     border: 3px solid #eb5428;
+}
+
+.search-box input::placeholder {
+    font-size: 15px;
 }
 
 .search-box-main > h2 {
@@ -172,7 +176,7 @@ header .header-menu-icons li a:hover {
     border: none;
 }
 
-/* main background */
+/* Style main and main content */
 main {
     background-color: #F2F2F2;
 }
@@ -228,6 +232,7 @@ main .main-directions ol {
 
 main .main-directions ol li {
     padding: 10px;
+    line-height: 1.5rem;
 }
 
 /* side dishes section */
@@ -237,8 +242,7 @@ main .main-side-dishes {
 
 main .main-side-dishes h2 {
     text-align: center;
-    margin: 20px 0;
-    padding-top: 10px;
+    padding: 20px 0;
 }
 
 main .main-side-dishes-list {
@@ -266,35 +270,15 @@ main .main-side-dishes-list li a:visited {
 }
 
 main .main-side-dishes-list img {
-    height: 110px;
-    width: 110px;
+    height: 100px;
+    width: 100px;
     padding-top: 10px;
     padding-left: 10px;
 }
 
 /* side dish title */
-main .main-side-dishes-list h3 {
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-main .main-side-dishes-list p {
-    margin: 0;
-    padding-left: 10px;
-}
-
 main .main-side-dishes-list .main-side-dish-list-text {
-    padding-bottom: 10px;
-}
-
-/* side dishes star rating */
-main .main-side-dish-list-text .star-rating-text {
-    font-weight: bold;
-}
-
-main .rating-star {
-    padding-left: 10px;
+    padding: 10px;
 }
 
 /* footer section */

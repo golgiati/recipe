@@ -1,7 +1,4 @@
-
-/* CSS for menus, page format and dropdown hamburger menu */
-
-/* top navigation and hamburger menu styling */
+/* CSS for top navigation and hamburger menu styling */
 nav {
     background-color: #eb5428;
     box-shadow: 1px 5px 4px 0 rgba(0,0,0,.1);
@@ -29,7 +26,7 @@ nav .menu li a {
 }
 
 
-/* only highlight the links in the dropdown menu when hover */
+/* highlight links in the dropdown menu when hover */
 nav .menu .li-a-with-background:hover {
     background-color:#eb5428;
     color: #F2F2F2;
@@ -67,7 +64,7 @@ nav .menu-btn:checked ~ .menu {
 /* accomodate the logo and sign in */
 [href="#logo"] {
     position: absolute;
-    top: 10px;
+    top: 15px;
     left: 165px;
     background-color: #eb5428;
     justify-content: center;
@@ -374,7 +371,6 @@ nav .menu-btn:checked ~ .menu {
         margin: 0;
     }
 
-    /* side dishes */
     /* side dishes section */
     main .main-side-dishes {
         grid-column: 1 / 4;
@@ -390,8 +386,8 @@ nav .menu-btn:checked ~ .menu {
     }
 
     main .main-side-dishes .main-side-dishes-list li img {
-        height: 200px;
-        width: 200px;
+        height: 210px;
+        width: 210px;
         padding-bottom: 10px;
         padding-right: 10px;
     }
