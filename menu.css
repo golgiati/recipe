@@ -237,7 +237,11 @@ nav .menu-btn:checked ~ .menu {
     footer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        padding-top: 50px;
+        /* padding-top: 50px; */
+    }
+
+    footer img {
+        padding-top: 20px;
     }
 
     footer .footer-information {
@@ -277,6 +281,10 @@ nav .menu-btn:checked ~ .menu {
         height: 86px;
     }
 
+    .search-box {
+        padding: 0;
+    }
+
     .search-box-main {
         position: relative;
         top: 0;
@@ -294,12 +302,12 @@ nav .menu-btn:checked ~ .menu {
     /* header styling */
     header h1 {
         text-align: center;
+        padding: 0;
     }
 
     header {
         display: grid;
         grid-template-columns: 0.6fr 2fr 3fr;
-        padding-top: 20px;
     }
 
     header .header-title {
@@ -328,7 +336,7 @@ nav .menu-btn:checked ~ .menu {
     }
 
     header .header-menu-icons li {
-        padding: 30px 0;
+        padding: 20px 0;
     }
 
     /* details styling */
@@ -336,6 +344,7 @@ nav .menu-btn:checked ~ .menu {
         grid-column: 1 / 4;
         background-color: #0d0d0d;
         color: #7ABFBF;
+        padding: 0;
     }
 
     main .main-details {
@@ -344,7 +353,7 @@ nav .menu-btn:checked ~ .menu {
     }
 
     main .main-details > h2 {
-        margin-top: 5px;
+        margin: 10px;
     }
 
     main .main-details-menu {
