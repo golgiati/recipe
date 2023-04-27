@@ -302,17 +302,17 @@ footer > h2 {
     display: none;
 }
 
-footer {
+footer .footer-information {
     text-align: center;
     background-color: #F2F2F2;
 }
 
-footer img {
+footer .footer-information img {
     width: 150px;
     height: 150px;
 }
 
-footer p {
+footer .footer-information p {
     padding-bottom: 20px;
 }
 
