@@ -236,11 +236,7 @@ nav .menu-btn:checked ~ .menu {
     footer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        /* padding-top: 50px; */
-    }
-
-    footer img {
-        padding-top: 20px;
+        padding-top: 30px;
     }
 
     footer .footer-information {
@@ -250,6 +246,10 @@ nav .menu-btn:checked ~ .menu {
 
     footer .social-media {
         grid-column: 2 / 3;
+    }
+
+    footer .social-media-menu {
+        margin: 0;
     }
 }
 
@@ -399,6 +399,7 @@ nav .menu-btn:checked ~ .menu {
     /* footer section */
     footer {
         grid-template-columns: 1fr 1fr 2fr;
+        padding-bottom: 20px;
     }
 
     footer p {
