@@ -270,11 +270,11 @@ nav .menu-btn:checked ~ .menu {
     }
 
     [href="#logo"] {
-        height: 86px;
+        height: 84px;
     }
 
     [href="#avatar"] {
-        height: 86px;
+        height: 84px;
     }
 
     .search-box {
